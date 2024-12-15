@@ -17,7 +17,8 @@
 │   ├── moonshot.py
 │   └── qwen.py
 ├── multi_modal
-│   └── azure_gpt4v.py
+│   ├── azure_gpt4v.py
+│   └── glm4v-flash.py
 ├── oss
 │   └── alicloud_oss.py
 └── tts
