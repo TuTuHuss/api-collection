@@ -23,5 +23,6 @@
 │   └── alicloud_oss.py
 └── tts
     ├── azure_tts.py
+    ├── siliconflow.py (cosyvoice2)
     └── utils_azure_tts.py
 ```
