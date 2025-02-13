@@ -4,25 +4,27 @@
 ├── LICENSE
 ├── README.md
 ├── asr
-│   └── azure_asr.py
+│   ├── azure_asr.py
+    └── siliconflow_asr.py
 ├── diffusion
-│   ├── sdxl.py
-│   └── sensemirage.py
+│   ├── sdxl_diffusion.py
+│   └── sensemirage_diffusion.py
 ├── llm
-│   ├── azure.py
-│   ├── baichuan.py
-│   ├── deepseek.py
-│   ├── glm.py
-│   ├── minimax.py
-│   ├── moonshot.py
-│   └── qwen.py
+│   ├── azure_llm.py
+│   ├── baichuan_llm.py
+│   ├── deepseek_llm.py
+│   ├── glm_llm.py
+│   ├── minimax_llm.py
+│   ├── moonshot_llm.py
+    ├── qwen_llm.py
+│   └── siliconflow_llm.py
 ├── multi_modal
-│   ├── azure_gpt4v.py
-│   └── glm4v-flash.py
+│   ├── azure_gpt4v_mm.py
+│   └── glm4v-flash_mm.py
 ├── oss
 │   └── alicloud_oss.py
 └── tts
     ├── azure_tts.py
-    ├── siliconflow.py (cosyvoice2)
+    ├── siliconflow_tts.py
     └── utils_azure_tts.py
 ```
