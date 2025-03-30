@@ -8,6 +8,7 @@
 │   └── siliconflow_asr.py
 ├── diffusion
 │   ├── sdxl_diffusion.py
+│   ├── recraft_diffusion.py
 │   └── sensemirage_diffusion.py
 ├── llm
 │   ├── azure_llm.py
